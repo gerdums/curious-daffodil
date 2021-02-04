@@ -8,8 +8,9 @@ sections:
   background_image: images/header.jpg
   background_image_opacity: 65
   content: |-
-    # Real, beautiful plants right to your door
-    Don't forget to add your Snipcart API key to the site's configuration to enable Cart actions.
+    # All-Natural balms
+
+    All-Natural skin care products with a mission to serve special needs familes
   actions:
   - type: action
     template: action
