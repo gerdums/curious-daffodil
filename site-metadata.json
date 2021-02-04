@@ -1,37 +1,40 @@
 {
-    "title": "Planty",
-    "palette": "green",
-    "snipcart_api_key": "",
-    "favicon": "images/favicon.png",
-    "logo_light": "images/logo-white.svg",
-    "logo_dark": "images/logo.svg",
-    "hamburger_background_image": "/images/leaf-light-grey.svg",
-    "bg_image_primary": "/images/header.jpg",
-    "bg_image_primary_opacity": 60,
-    "bg_image_secondary": "/images/leaf-light-grey.svg",
-    "bg_image_product": "/images/leaf.svg",
-    "main_menu": [
-        {
-            "type": "action",
-            "template": "action",
-            "title": "Store",
-            "url": "/store",
-            "style": "link"
-        },
-        {
-            "type": "action",
-            "template": "action",
-            "title": "About",
-            "url": "/about",
-            "style": "link"
-        },
-        {
-            "type": "action",
-            "template": "action",
-            "title": "FAQ",
-            "url": "/faq",
-            "style": "link"
-        }
-    ],
-    "footer_text": "Copyright 2021 Planty Inc. All rights reserved."
+  "title": "Eli’s Balms",
+  "palette": "green",
+  "snipcart_api_key": "NTA4ODJiYjctZTM2Yy00ZWVhLWE1NWUtY2JkOWFhNDU5YmE5NjM3NDgwMDA0MjM2MjczMTU3",
+  "favicon": "images/favicon.png",
+  "logo_light": "images/logo-white.svg",
+  "logo_dark": "images/logo.svg",
+  "hamburger_background_image": "/images/leaf-light-grey.svg",
+  "bg_image_primary": "/images/header.jpg",
+  "bg_image_primary_opacity": 60,
+  "bg_image_secondary": "/images/leaf-light-grey.svg",
+  "bg_image_product": "/images/leaf.svg",
+  "main_menu": [
+    {
+      "type": "action",
+      "template": "action",
+      "title": "Store",
+      "url": "/store",
+      "style": "link",
+      "arrow": false
+    },
+    {
+      "type": "action",
+      "template": "action",
+      "title": "About",
+      "url": "/about",
+      "style": "link",
+      "arrow": false
+    },
+    {
+      "type": "action",
+      "template": "action",
+      "title": "FAQ",
+      "url": "/faq",
+      "style": "link",
+      "arrow": false
+    }
+  ],
+  "footer_text": "Copyright 2021 Planty Inc. All rights reserved."
 }
