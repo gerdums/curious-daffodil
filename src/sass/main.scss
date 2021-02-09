@@ -40,7 +40,7 @@ $theme_palettes: (
 );
 
 // Font family
-$font_family_primary:   'Open Sans', sans-serif;
+$font_family_primary:   'Dubiel', serif;
 $font_family_secondary: 'Lato', sans-serif;
 
 // Font sizes
@@ -63,6 +63,15 @@ $spacing--unit:      8px;
 @import "imports/base";
 @import "imports/links";
 @import "imports/buttons";
+//@include font-face(Dubiel, fonts/dubiel);
+
+@font-face {
+  font-family: "Dubiel";
+  src:  url("./imports/fonts/Dubiel.ttf") format("truetype");
+        // url("./imports/fonts/dubiel-webfont.woff2") format("woff2"),
+        // url("./imports/fonts/dubiel-webfont.woff") format("woff"),
+       
+}
 
 // Components
 @import "imports/nav";

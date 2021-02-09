@@ -23,7 +23,7 @@ export default class Header extends React.Component {
                                     <Picture {...this.props} image={_.get(site, 'siteMetadata.logo_light', null)} cssClass={'nav__logo-image'} alt={'Site logo'} />
                                 ) : 
                                     <Picture {...this.props} image={_.get(site, 'siteMetadata.logo_dark', null)} cssClass={'nav__logo-image'} alt={'Site logo'} />
-                                }<span>Eli's Balms</span></h2>
+                                }<span style={{ color: '#827F16' }}>Eli's Balms</span></h2>
                             </Link>
                         </div>
                         <ul className="nav__menu">
